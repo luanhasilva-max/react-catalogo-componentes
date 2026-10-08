@@ -1,8 +1,15 @@
 function Cabecalho() {
   return (
     <header className="cabecalho">
-      <h1>Catálogo de Cursos</h1>
-      <p>Conheça algumas formações disponíveis na área de tecnologia.</p>
+      <div className="cabecalho-conteudo">
+        <span className="etiqueta">TECNOLOGIA</span>
+
+        <h1>Catálogo de Cursos</h1>
+
+        <p>
+          Conheça cursos para começar sua jornada na área de tecnologia.
+        </p>
+      </div>
     </header>
   );
 }
